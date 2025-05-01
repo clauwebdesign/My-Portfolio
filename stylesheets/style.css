@@ -91,21 +91,31 @@ body {
     }
 
     .pt-0 {
-      padding-top: 0px;
+      padding-top: 0px!important;
     }
 
     .mb-30{
       margin-bottom: 30px;
     }
-    .mb-50{
-      margin-bottom: 50px;
+
+    .pt-30{
+      padding-top: 30px!important;
     }
+
+    .pt-50{
+      padding-top: 50px!important;
+    }
+    .pb-50{
+      padding-bottom: 50px!important;
+    }
+     
     .mb-80{
       margin-bottom: 80px;
     }
     .mb-100{
       margin-bottom: 100px;
     }
+    
     /* Border of projects */
     .border{
       padding:30px 10px;
@@ -150,9 +160,6 @@ h1 {
     font-style: normal;
  }
 
-  
-  
-
   h2{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -163,8 +170,9 @@ h1 {
  
 
 h3 {
+  font-family: "Work Sans", sans-serif;
   margin-bottom: 20px;
-  font-weight: 300; }
+  font-weight: 500; }
 
 h4 {
   /* font-family: "Inconsolata", sans-serif; */
@@ -184,10 +192,11 @@ p {
   line-height: 1.6em;
   /* font-family: "Inconsolata", sans-serif; */
   font-family: "Work Sans", sans-serif;
-  
+  font-weight: 400;
   /* color: #888; */
   color: #403E3B;
-  margin: 10px 0 30px 0; }
+  margin: 10px 0 30px 0; 
+}
   p a {
     font-weight: bold; }
 
