@@ -87,7 +87,7 @@ body {
 
 
     .pb-0 {
-      padding-bottom: 0px;
+      padding-bottom: 0px!important;
     }
 
     .pt-0 {
@@ -175,6 +175,7 @@ h4 {
   padding-bottom: 5px;
   font-weight: bold;
     color: #403E3B; 
+    /* font-weight: 600; */
 }
   
 
