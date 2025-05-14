@@ -27,11 +27,13 @@ Made by Themanoid
 @import url("tera-lightbox.css");
 ::selection {
   background: yellow;
+  /* background: #B5E9E3; */
   color: #403E3B; 
 }
 
 ::-moz-selection {
   background: yellow;
+  /* background: #B5E9E3; */
   color: #403E3B; }
 
 * {
@@ -45,8 +47,8 @@ Made by Themanoid
 -------------*/
 html, body {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  /* font-family: "Work Sans", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Work Sans", sans-serif;
   font-weight: 300;
   background: #fff;
   color: #403E3B;
@@ -98,8 +100,15 @@ body {
       margin-bottom: 30px;
     }
 
+    .mb-50{
+      margin-bottom: 50px;
+    }
+
     .pt-30{
       padding-top: 30px!important;
+    }
+    .pb-30{
+      padding-bottom: 30px!important;
     }
 
     .pt-50{
@@ -108,6 +117,14 @@ body {
     .pb-50{
       padding-bottom: 50px!important;
     }
+
+    .pt-100{
+      padding-top: 100px!important;
+    }
+
+    .pb-100{
+      padding-bottom: 100px!important;
+    }
      
     .mb-80{
       margin-bottom: 80px;
@@ -115,7 +132,7 @@ body {
     .mb-100{
       margin-bottom: 100px;
     }
-    
+
     /* Border of projects */
     .border{
       padding:30px 10px;
@@ -156,7 +173,7 @@ h1 {
   font-weight: 100; */
   font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: bold;
     font-style: normal;
  }
 
@@ -231,6 +248,7 @@ strong {
     line-height: 1.6em;
     /* font-family: "Inconsolata", sans-serif; */
     font-family: "Work Sans", sans-serif;
+    font-weight: 400;
     /* color: #888; */
     color: #403E3B;
     margin: 10px 0 30px 0;
@@ -705,15 +723,36 @@ section {
   section.gray {
     background: #eee; }
     section.light-gray {
-      background: #F8F8F8; }
+      background: #F8F8F8;
+     }
     section.blue {
       background: #EAFAFA;
     }
     section.green {
       background: #F5F6E9;
     }
+    section.greenapp{
+      background: #EFF6E9;
+    }
+    section.blueapp{
+       background: #DCEAFB
+    }
+    section.blueaci{
+      /* background: #cfe5f0; */
+      /* background: #D5EAF6; */
+      /* background: #DAEDF6; */
+      background: #E4F3FA;
+
+    }
     section.blue{
       background: #C0D8E3;
+      /* background: #DCEAFB */
+    }
+    section.orange{
+      /* background: #F7DCC3; */
+      /* background: linear-gradient(180deg, #F7DCC3 0%, #ffffff 100%); */
+      background: #FBE9DC;
+       /* background: #DCEAFB */
     }
   section.jumbotron {
     max-width: 100%;
@@ -735,7 +774,7 @@ section {
       right: 0;
       bottom: 0; }
     section.jumbotron h1 {
-      font-size: 4em; }
+      font-size: 2.5em; }
     section.jumbotron h3 {
       font-size: 1.1em; }
     section.jumbotron p {
