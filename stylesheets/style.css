@@ -96,6 +96,10 @@ body {
       padding-top: 0px!important;
     }
 
+    .pr-0{
+      padding-right: 0px!important;
+    }
+
     .mb-30{
       margin-bottom: 30px;
     }
@@ -130,7 +134,7 @@ body {
       margin-bottom: 80px;
     }
     .mb-100{
-      margin-bottom: 100px;
+      margin-bottom: 100px!important;
     }
 
     .mt-100{
@@ -152,14 +156,20 @@ body {
 
 
     .fill{
-      /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    fill: red;
-    fill-opacity: 0.8; */
-    background-color: #fdf2d8; /* un tono amarillo suave */
+    background-color: #fdf2d8; 
     padding: 0.1em 0.1em;
-    /* border-radius: 4px; */
     font-weight: 500;
     }
+
+    .fill-blue{
+    background-color: #E4F3FA; 
+    padding: 0.1em 0.1em;
+    font-weight: 500;
+    }
+
+    
+
+
 
 /*-----------
 
@@ -301,36 +311,11 @@ strong {
   transition: all .3s;
 }
 
-.grid {
-  /* text-decoration: none; */
-  /* color: #000; */
-  /* margin-bottom: 20px; */
-}
-
-/* .grid .inner {
-  -webkit-animation-name: itemIn;
-          animation-name: itemIn;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  opacity: 0;
-  margin-bottom: 30px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
-}
-
-.grid .item:nth-of-type(1) .inner {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
-} */
 
 .card {
   box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
   transition: filter 0.6s cubic-bezier(0.55, 0.055, 0.675, 0.19), 
-  opacity 0.6s ease-in-out;
-  
-  
+  opacity 0.6s ease-in-out; 
 }
 
 .card:hover {
@@ -338,21 +323,27 @@ strong {
   opacity: 1;
 }
 
-.outlined-text {
+.card2{
+  background-color: #fff;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin: 40px auto;
+    transition: all .12s;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1), 0 15px 35px rgba(0, 0, 0, .05);
+
+}
+
+/* .outlined-text {
   font-size: 3rem;
-  color: white; /* El relleno del texto */
-  -webkit-text-stroke: 1px black; /* Contorno negro */
+  color: white; 
+  -webkit-text-stroke: 1px black; 
   font-weight: 600;
   background-color: transparent;
-}
-.gradient-text {
-  /* font-size: 3rem;
-  font-weight: 700;
-  background: linear-gradient(90deg, #000000, #999999);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  
-}
+} */
+
 
 .responsive-video {
   width: 100%;
@@ -659,6 +650,10 @@ textarea.form-element {
     .btn.btn-default:hover, .btn.btn-default.active {
       background: #222;
       color: #fff; }
+      .btn.btn-inactive{
+        background: #C8C6C3 ;
+        pointer-events: none; /* evita clics */
+       }
   .btn.btn-lg {
     padding: 20px 35px; }
   .btn.btn-sm {
