@@ -487,6 +487,13 @@ ul.comments {
   border-bottom: 1px solid #eee; }
 
 .brand {
+
+
+  font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
   font-size: 1.1em;
   padding: 10px 0;
   width: auto;
@@ -495,7 +502,8 @@ ul.comments {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #403E3B;
-  font-weight: 300; }
+  /* font-weight: 300;  */
+}
   .brand:hover {
     color: #403E3B;
     text-decoration: none; }
