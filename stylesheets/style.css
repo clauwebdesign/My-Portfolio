@@ -167,6 +167,12 @@ body {
     font-weight: 500;
     }
 
+    .confidential{
+      font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    }
+
     
 
 
@@ -226,6 +232,21 @@ h4 {
   font-weight: bold;
     color: #403E3B; 
     /* font-weight: 600; */
+}
+
+.resume-h4{
+
+  color: #6d6e71;
+  letter-spacing: 1.5px;
+
+}
+
+.resume-h2{
+  font-size: 27px;
+  letter-spacing: 1.3px;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: italic;
 }
   
 
@@ -335,6 +356,20 @@ strong {
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1), 0 15px 35px rgba(0, 0, 0, .05);
 
 }
+
+.card3{
+  background-color: #fff;
+    /* border-radius: 8px; */
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    /* margin: 40px auto; */
+    transition: all .12s;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1), 0 15px 35px rgba(0, 0, 0, .05);
+
+}
+
 
 /* .outlined-text {
   font-size: 3rem;
@@ -1309,6 +1344,13 @@ footer {
     -webkit-transform: scale(1, 1);
     -moz-transform: scale(1, 1);
     transform: scale(1, 1); }
+
+
+
+    .private .caption {
+      padding-left: 10px;
+      padding-top: 10!important;
+      font-size: 15px; }
 
 #filter-trigger {
   margin: 25px 0 0;
