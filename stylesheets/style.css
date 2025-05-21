@@ -88,6 +88,9 @@ body {
     opacity: 1; }
 
 
+
+    
+
     .pb-0 {
       padding-bottom: 0px!important;
     }
@@ -208,11 +211,30 @@ h1 {
     font-style: normal;
  }
 
+.h1-home {
+  /* font-family: "Roboto", sans-serif;
+  font-weight: 100; */
+  font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.5em;
+ }
+
   h2{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
+  }
+
+  .h2-home{
+    /* font-family: "Roboto", sans-serif;
+  font-weight: 100; */
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
   }
 
  
@@ -262,6 +284,16 @@ p {
 }
   p a {
     font-weight: bold; }
+
+
+h5 {
+      font-size: .99em;
+      line-height: 1.5em;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      color: #403E3B;
+      margin: 10px 0 30px 0; 
+    }
 
 blockquote {
   border-left: 1px solid #bbb;
@@ -345,8 +377,8 @@ strong {
 }
 
 .card2{
-  background-color: #fff;
-    border-radius: 8px;
+  background-color: #f4f4f4;
+    /* border-radius: 8px; */
     flex-wrap: wrap;
     align-items: stretch;
     width: 100%;
@@ -358,7 +390,7 @@ strong {
 }
 
 .card3{
-  background-color: #fff;
+  /* background-color: #f4f4f4; */
     /* border-radius: 8px; */
     flex-wrap: wrap;
     align-items: stretch;
